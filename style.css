@@ -1,0 +1,107 @@
+.face{
+    height: 500px;
+    width: 500px;
+    background-color: #ffc1cc;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15%;
+    border :2px solid black;
+    position: relative;
+}
+.ears
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 580px;
+    margin-left: 25%;
+    margin-top: -34px;
+}
+#e1
+{
+    height: 160px;
+    width: 160px;
+    border :2px solid black;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background-color: #ffc1cc;
+
+}
+#e2
+{
+    height: 160px;
+    width: 160px;
+    border :2px solid black;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background-color: #ffc1cc;
+
+}
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 500px;
+    margin-top: 20%;
+}
+#leye{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: space-evenly;
+}
+
+#reye{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: space-evenly;
+
+}
+#ey{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position:absolute;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.mouth{
+    background-color: #ff0059;
+    display: inline-block;
+    height: 100px;
+    position :relative;
+    width: 200px;
+    margin-top: 60%;
+    margin-left: 30%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+    border :2px solid black;
+}
+#holes
+{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: black;
+        position:absolute;
+        margin-left: 8%;
+        margin-top: 12%;
+}
+#holes1
+{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: black;
+        position:absolute;
+        margin-left: 68%;
+        margin-top: 12%;
+}
